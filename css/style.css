@@ -230,3 +230,51 @@ footer{
     background-color: #ffeaa7 !important; /* A light yellow for the lunch break */
     color: #d35400;
 }
+
+.navbar{
+  position: relative;
+  overflow: hidden;
+  padding:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  background-color: #d35400;
+  opacity:0.8;
+
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.contact-container {
+    max-width: 500px;
+}
+
+.contact-container h1 {
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+}
