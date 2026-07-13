@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest2026</title>
+    <link rel="icon" type="image/jpg" href="image\Logo1.jpg">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Registration Here!</strong></h1>
+    </header>
+     <nav>
+            <a href="index.html"><strong>Home</strong></a>
+            <a href="register.html"><strong>Register</strong></a>
+            <a href="events.html"><strong>Events</strong></a>
+            <a href="gallery.html"><strong>Gallery</strong></a>
+    </nav>
+
+    <h3><strong>Please provide the following details :</strong></h3>
+    <main>
+        <form action="">
+            <div class="form-row">
+                <label class="form-label">Name:</label><input type="text"><br>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Email:</label><input type="email"><br>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Telephone:</label><input type="tel"><br>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Date of Birth:</label><input type="date"><br>
+            </div>
+            <label class="form-label" for="gender">Gender:</label>
+            <div class="radio-group" margin-bottom=12px>
+                <label><input type="radio"  name="gender" checked>Male</label>
+                <label><input type="radio"  name="gender">Female</label>
+            </div>
+            <div class="form-row">
+                <label for="department">Department</label>
+                <select name="department">
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ME">ME</option>
+                    <option value="CE">CE</option>
+                </select>
+            </div>
+            <label class="form-label" for="events">Events:</label><br>
+                <div class="checkbox">
+                    <label><input type="checkbox"  name="events">Music Festival</label>
+                    <label><input type="checkbox"  name="events">Photography Contest</label>
+                    <label><input type="checkbox"  name="events">Best Singer</label>
+                </div>
+        </form>
+        <div class="submit-button">
+           <input type="submit">
+        </div>
+    </main>
+    <footer>
+        <p>ENDORA TECHFEST 2026<sup>&copy</sup></p>
+    </footer>
+    
+</body>
+</html>
